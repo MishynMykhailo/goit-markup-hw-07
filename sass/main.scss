@@ -1,12 +1,12 @@
 //UTILS
 @import "./utils/visually-hidden";
+@import "./utils/variables";
 
 //BASE
 @import "./base/common";
 //COMPONENTS
 @import "./components/backdrop";
 @import "./components/container";
-@import "./components/font-header-footer-logo";
 @import "./components/list";
 @import "./components/modal-btn";
 @import "./components/modal-from";
