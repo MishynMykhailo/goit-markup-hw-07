@@ -15,10 +15,10 @@
   letter-spacing: 0.03em;
 }
 .header-cont__title {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-cont__logo--text {
-  color: #000000;
+  color: var(--logo-text-color);
 }
 .header-cont__logo--image {
   margin-right: 93px;
@@ -54,7 +54,7 @@
   letter-spacing: 0.02em;
 }
 .header-nav__link {
-  color: #212121;
+  color: var(--primary-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
@@ -66,23 +66,23 @@
   text-decoration: none;
 }
 .header-contact__link {
-  color: #757575;
+  color: var(--secondary-text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-nav__link:hover,
 .header-contact__link:hover,
 .header-nav__link:focus,
 .header-contact__link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-nav__link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .header-nav__link.current::after {
   content: "";
   height: 4px;
   width: 100%;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 2px;
@@ -91,11 +91,11 @@
   bottom: -1px;
 }
 .header-contact__icon {
-  fill: #757575;
+  fill: var(--secondary-text-color);
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-contact__link:hover .header-contact__icon,
 .header-contact__link:focus .header-contact__icon {
-  fill: #2196f3;
+  fill: var(--accent-color);
 }

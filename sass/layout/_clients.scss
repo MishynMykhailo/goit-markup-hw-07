@@ -38,9 +38,9 @@
 }
 .clients__item:hover,
 .clients__item:focus {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--accent-color);
 }
 .clients__item:hover .clients__icon,
 .clients__item:focus .clients__icon {
-  fill: #2196f3;
+  fill: var(--accent-color);
 }
