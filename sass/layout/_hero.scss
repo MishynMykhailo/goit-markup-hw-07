@@ -47,9 +47,9 @@
   border: 0px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
 
-.hero-section__btn-modal:hover,
-.hero-section__btn-modal:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }

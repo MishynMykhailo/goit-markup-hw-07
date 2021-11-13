@@ -7,16 +7,21 @@
 }
 .benefits__item {
   width: 270px;
+
+  &::before {
+    content: "";
+    margin-bottom: 30px;
+    height: 120px;
+    background-color: var(--secondary-background-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+  }
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.benefits__item::before {
-  content: "";
-  margin-bottom: 30px;
-  height: 120px;
-  background-color: var(--secondary-background-color);
-  background-repeat: no-repeat;
-  background-position: center;
-  display: block;
-}
+
 .icon-antenna.benefits__item::before {
   content: "";
   background-image: url(../images/Studio/antenna.svg);
@@ -33,9 +38,7 @@
   content: "";
   background-image: url(../images/Studio/astronaut.svg);
 }
-.benefits__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .benefits__title {
   font-weight: 700;
   font-size: 14px;

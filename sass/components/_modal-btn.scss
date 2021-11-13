@@ -14,10 +14,11 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-section__btn-modal-closed:hover,
-.hero-section__btn-modal-closed:focus {
-  fill: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+  }
 }
 
 .modal-form__btn-sumbit {
@@ -37,10 +38,11 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-form__btn-sumbit:hover,
-.modal-form__btn-sumbit:focus {
-  background-color: #188ce8;
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 .modal-form__checkbox-label::before {
   content: "";
